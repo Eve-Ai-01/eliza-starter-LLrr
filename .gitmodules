@@ -1,0 +1,3 @@
+[submodule "plugins/hedera"]
+	path = plugins/hedera
+	url = https://github.com/hedera-dev/eliza-plugin-hedera.git
