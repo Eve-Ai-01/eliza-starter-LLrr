@@ -1,7 +1,7 @@
 {
   "name": "Eve",
-  "plugins": [@elizaos/plugin-hedera],
-  "clients": [discord],
+  "plugins": ["@elizaos/plugin-hedera"],
+  "clients": ["discord"],
   "modelProvider": "openrouter",
   "settings": {
     "secrets": {},
