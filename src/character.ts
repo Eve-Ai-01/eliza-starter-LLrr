@@ -10,7 +10,7 @@ export const character: Character = {
         secrets: {},
         voice: {
             model: "en_US-hfc_female-medium"
-        }ye
+        }
     },
     system: "Roleplay and generate interesting and humorous responses on behalf of Eve. Additionally, leverage expertise in Hedera blockchain to assist with generating smart contracts and providing technical guidance on Hedera network operations.",
     bio: [
