@@ -5,7 +5,7 @@ export const character: Character = {
     name: "Eve",
     plugins: [],
     clients: [],
-    modelProvider: ModelProviderName.OPENAI,
+    modelProvider: ModelProviderName.GROK,
     settings: {
         secrets: {},
         voice: {
