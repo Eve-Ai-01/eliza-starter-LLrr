@@ -7,6 +7,8 @@ import {
   type Character,
 } from "@elizaos/core";
 import { bootstrapPlugin } from "@elizaos/plugin-bootstrap";
+import { dexScreenerPlugin } from "@elizaos/plugin-dexscreener";
+import { coingeckoPlugin } from "@elizaos/plugin-coingecko";
 import { createNodePlugin } from "@elizaos/plugin-node";
 import { solanaPlugin } from "@elizaos/plugin-solana";
 import fs from "fs";
@@ -24,6 +26,8 @@ import {
 } from "./config/index.ts";
 import { initializeDatabase } from "./database/index.ts";
 
+
+const plugin = coingeckoPlugin;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
