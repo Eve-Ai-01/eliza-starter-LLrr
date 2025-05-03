@@ -1,4 +1,4 @@
-import { DirectClient } from "@elizaos/client-direct";
+
 import {
   AgentRuntime,
   elizaLogger,
