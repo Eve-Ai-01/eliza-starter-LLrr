@@ -1,3 +1,6 @@
 [submodule "plugins/hedera"]
 	path = plugins/hedera
 	url = https://github.com/hedera-dev/eliza-plugin-hedera.git
+[submodule "plugins/client-direct"]
+	path = plugins/client-direct
+	url = https://github.com/elizaos-plugins/client-direct.git
